@@ -11,12 +11,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter your name"
+        android:id="@+id/main_nameEditText"
     />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter your email"
+        android:id="@+id/main_emailEditText"
         />
 
     <LinearLayout
@@ -28,6 +30,7 @@
         android:layout_height="wrap_content"
         android:hint="Enter your Phone"
         android:layout_weight="1"
+        android:id="@+id/main_phoneEditText"
         />
 
     <EditText
@@ -35,6 +38,7 @@
         android:layout_height="wrap_content"
         android:hint="Enter your Cell"
         android:layout_weight="1"
+        android:id="@+id/main_cellEditText"
         />
     </LinearLayout>
     <EditText
@@ -42,13 +46,14 @@
         android:layout_height="0dp"
         android:hint="Enter your Message"
         android:layout_weight="1"
+        android:id="@+id/main_messageEditText"
         />
 
     <Button
         android:layout_width="wrap_content"
-        android:layout_gravity="end"
         android:layout_height="wrap_content"
-        android:hint="Edit"
-        />
+        android:layout_gravity="end"
+        android:hint="Send"
+        android:onClick="editPressed" />
 
 </LinearLayout>
