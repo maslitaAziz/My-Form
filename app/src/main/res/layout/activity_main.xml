@@ -41,6 +41,20 @@
         android:id="@+id/main_cellEditText"
         />
     </LinearLayout>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner">
+    </Spinner>
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/negeri"
+        android:completionThreshold="1"
+        />
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -48,6 +62,7 @@
         android:layout_weight="1"
         android:id="@+id/main_messageEditText"
         />
+
 
     <Button
         android:layout_width="wrap_content"
